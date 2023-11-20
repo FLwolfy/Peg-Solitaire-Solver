@@ -1,5 +1,5 @@
 # Peg-Solitaire-Solver
-This is a really simple way to solve English Peg Solitaire problems.
+Welcome to Peg Solitair Solver. This is a really simple way to solve English Peg Solitaire problems.
 
 ## Overview
 This project explores a simple solution to the English Peg-Solitaire puzzle. The primary method involves using a recursive backtracking approach to handle the game board. Memorization is employed to store previously explored states, reducing computational overhead. To expedite the search for possible solutions, the recursive approach prioritizes moving the current peg along the longest possible path before considering other pegs. This strategy aims to get rid of unnecessary performance costs.
