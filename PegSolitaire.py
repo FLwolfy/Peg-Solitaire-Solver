@@ -18,13 +18,14 @@ class PegSolitaire:
             return 
         
         print(f"The answer is:\n{answer}\n")
-        print("--> STEP 0 (Original Board):")
+        print("--> STEP 0 [Original Board]:")
         print(board_to_string(board))
         stepCount = 1
         for step in answer:
-            print(f"--> STEP {stepCount}:")
+            print(f"--> STEP {stepCount} ", end='')
             fr,fc,tr,tc = step[0],step[1],step[2],step[3]
             mr,mc = (fr + tr) // 2, (fc + tc) // 2
+            print(f"[{fr, fc}->{tr, tc}]:")
             board[fr][fc] = 'X'
             board[mr][mc] = 'X'
             board[tr][tc] = 'O'
