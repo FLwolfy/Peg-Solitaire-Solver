@@ -11,17 +11,17 @@ This project explores a simple solution to the English Peg-Solitaire puzzle. The
 2. **Run Solver:**
    Execute the following code in the `Main` function:
    
-   # Get steps (fromRow, fromCol, toRow, toCol) as a list
+   ### Get steps (fromRow, fromCol, toRow, toCol) as a list
    ```python
    steps = PegSolitaire.solve(board)
    ```
    
-   # Check runtime
+   ### Check runtime
    ```python
    PegSolitaire.solve_test(board)
    ```
    
-   # Visualize step-by-step process
+   ### Visualize step-by-step process
    ```python
    PegSolitaire.show_steps(board)
    ```
