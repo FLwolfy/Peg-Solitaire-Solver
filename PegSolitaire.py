@@ -18,7 +18,7 @@ class PegSolitaire:
             return 
         
         print(f"The answer is:\n{answer}\n")
-        print("--> STEP 0:")
+        print("--> STEP 0 (Original Board):")
         print(board_to_string(board))
         stepCount = 1
         for step in answer:
