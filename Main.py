@@ -1,6 +1,9 @@
 from PegSolitaire import PegSolitaire
 import Board
 
+steps3 = PegSolitaire.solve(Board.board3)
+steps10 = PegSolitaire.solve(Board.board10)
+
 PegSolitaire.solve_test(Board.board3)
 PegSolitaire.solve_test(Board.board10)
 PegSolitaire.solve_test(Board.board14)

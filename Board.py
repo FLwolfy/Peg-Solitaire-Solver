@@ -25,6 +25,7 @@ def generate_board(pegCount: int = None) -> str:
     board_str = '\n'.join([''.join(row) for row in board]) + '\n'
     return board_str
 
+##  Here are some example boards
 board3 = """\
   XXX  
   XOX  
