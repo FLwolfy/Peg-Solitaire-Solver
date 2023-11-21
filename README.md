@@ -5,10 +5,10 @@ Welcome to Peg Solitair Solver. This is a really simple way to solve English Peg
 This project explores a simple solution to the English Peg-Solitaire puzzle. The primary method involves using a recursive backtracking approach to handle the game board. Memorization is employed to store previously explored states, reducing computational overhead. To expedite the search for possible solutions, the recursive approach prioritizes moving the current peg along the longest possible path before considering other pegs. This strategy aims to get rid of unnecessary performance costs.
 
 ## Usage
-1. **Download Source Code:**\n
+1. **Download Source Code:**
    Clone or download the source code from the repository.
 
-2. **Create Boards:**\n
+2. **Create Boards:**
    Create your own boards or use the example board in the `Board.py` file. Here is the template:
    ```python
    boardTemplate = """\
