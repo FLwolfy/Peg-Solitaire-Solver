@@ -12,14 +12,14 @@ This project explores a simple solution to the English Peg-Solitaire puzzle. The
    Create your own boards or use the example board in the `Board.py` file. Here is the template:
    ```python
    boardTemplate = """\
-  XXX  
-  XXX  
-XXXXXXX
-XXXXXXX
-XXXXXXX
-  XXX  
-  XXX  
-"""
+     XXX  
+     XXX  
+   XXXXXXX
+   XXXXXXX
+   XXXXXXX
+     XXX  
+     XXX  
+   """
    ```
 
 4. **Run Solver:**
