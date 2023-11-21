@@ -8,8 +8,22 @@ This project explores a simple solution to the English Peg-Solitaire puzzle. The
 1. **Download Source Code:**
    Clone or download the source code from the repository.
 
-2. **Run Solver:**
-   Execute the following code in the `Main` function:
+2. **Create Boards**
+   Create your own boards or use the example board in the `Board.py` file. Here is the template:
+   ```python
+   boardTemplate = """\
+  XXX  
+  XXX  
+XXXXXXX
+XXXXXXX
+XXXXXXX
+  XXX  
+  XXX  
+"""
+   ```
+
+4. **Run Solver:**
+   Execute the following code in the `Main.py` file:
    
  **Get steps (fromRow, fromCol, toRow, toCol) as a list**
    ```python
