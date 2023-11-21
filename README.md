@@ -10,35 +10,35 @@ This project explores a simple solution to the English Peg-Solitaire puzzle. The
 
 2. **Create Boards**
    Create your own boards or use the example board in the `Board.py` file. Here is the template:
-```python
-boardTemplate = """\
-  XXX  
-  XXX  
-XXXXXXX
-XXXXXXX
-XXXXXXX
-  XXX
-  XXX  
-"""
+   ```python
+   boardTemplate = """\
+     XXX  
+     XXX  
+   XXXXXXX
+   XXXXXXX
+   XXXXXXX
+     XXX
+     XXX  
+   """
    ```
 
-4. **Run Solver:**
+3. **Run Solver:**
    Execute the following code in the `Main.py` file:
    
- **Get steps (fromRow, fromCol, toRow, toCol) as a list**
-   ```python
-   steps = PegSolitaire.solve(board)
-   ```
+    **Get steps (fromRow, fromCol, toRow, toCol) as a list**
+    ```python
+    steps = PegSolitaire.solve(board)
+    ```
    
- **Check runtime**
-   ```python
-   PegSolitaire.solve_test(board)
-   ```
+    **Check runtime**
+    ```python
+    PegSolitaire.solve_test(board)
+    ```
    
- **Visualize step-by-step process**
-   ```python
-   PegSolitaire.show_steps(board)
-   ```
+    **Visualize step-by-step process**
+    ```python
+    PegSolitaire.show_steps(board)
+    ```
 
 ## Notes
 This method is a personal learning project summary, and its efficiency is not optimal. There is substantial room for optimization, and discussions and contributions are welcome.
